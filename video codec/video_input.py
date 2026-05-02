@@ -38,5 +38,4 @@ def verify_output(yuv_data):
 
 video_data = generate_video_input()
 verify_output(video_data) 
-
 frame_handling.frame_decision(video_data)
