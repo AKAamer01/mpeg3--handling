@@ -1,0 +1,13 @@
+[project]
+name = "mpeg3-handling"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "matplotlib>=3.10.9",
+    "numpy>=2.4.4",
+    "opencv-python>=4.13.0.92",
+    "scikit-image>=0.26.0",
+    "scipy>=1.17.1",
+]
