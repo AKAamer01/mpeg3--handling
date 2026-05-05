@@ -346,7 +346,7 @@ def save_video_from_frames(frames, output_path="decoded_video.avi", fps=10):
 
     out.release()
     size_kb = os.path.getsize(output_path) / 1024
-    print(f"[VIDEO INPUT] Saved {len(frames)} frames → '{output_path}'  "
+    print(f"[VIDEO INPUT] Saved {len(frames)} frames -> '{output_path}'  "
           f"({size_kb:.1f} KB)")
 
 
@@ -356,7 +356,7 @@ def save_video_from_frames(frames, output_path="decoded_video.avi", fps=10):
 
 if __name__ == "__main__":
     print("=" * 55)
-    print("  VIDEO INPUT MODULE — STANDALONE TEST")
+    print("  VIDEO INPUT MODULE - STANDALONE TEST")
     print("=" * 55)
 
     # 1. Generate
@@ -385,4 +385,4 @@ if __name__ == "__main__":
     print(f"  Y-channel min   : {y_channel.min():.0f}")
     print(f"  Y-channel max   : {y_channel.max():.0f}")
 
-    print("\n✓ video_input.py — all functions verified OK")
+    print("\n[OK] video_input.py - all functions verified OK")
